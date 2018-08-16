@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="container">
+    <h1 class="brand"><span>ADA </span>Students feedback</h1>
+    <div class="wrapper ">
+      <div class="company-info">
+        <div class="content">
+        <img src="res/img.png" alt="" width="100%">
+        <h3>To give us feedback, because this course is made for you! Because it's all about you!</h3>
+        <p>Fill this form if you:</p>
+        <ul>
+          <li></i> - Find an error in the content or in the quizzes</li>
+          <li></i> - Have a feedback about instructors or the experience</li>
+          <li></i> - Have a suggestion on how to make the course better</li>
+        </ul>
+        </div>
+      </div>
+      <div class="contact">
+        <fieldset>
+        <legend>Email Us</legend>
+        <div class="alert" id="alert">Thank you for your feedback, dear friend!</div>
+        <form id="contactform">
+          <p>
+            <label>Name</label>
+            <br>
+            <input type="text" name="name" id="name" required>
+          </p>
+          <p>
+            <label>Track</label>
+            <select name="track" id="track">
+              <option value="ai">AI</option>
+              <option value="web">Web</option>
+              <option value="game">Game</option>
+            </select>
+          </p>
+          <p>
+            <label>Slide name (or object)</label>
+            <br>
+            <input type="text" name="slide" required="true" id="slide" >
+          </p>
+          <p class="full">
+            <label>Message</label>
+            <br>
+            <textarea name="message" rows="5" id="message"></textarea required>
+          </p>
+          <p class="full">
+            <button type="submit">Submit</button>
+          </p>
+        </form>
+        </fieldset>
+      </div>
+    </div>
+  </div>
+
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="js/main.js"></script>
+</html>

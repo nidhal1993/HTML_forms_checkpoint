@@ -1,0 +1,1 @@
+$("button").click(function(){$(".alert").css("display","inline-block")})
